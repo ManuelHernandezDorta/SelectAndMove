@@ -21,7 +21,7 @@ if there is any problem with the script try to enter the entiry path from the ro
 ## list:
 This script needs a list in .txt format, this list must have a certain format to make possible the script to read it, here is an example<br/>
 
-'''txt
+'''
 file_1<br/>
 file_2<br/>
 file_3<br/>
