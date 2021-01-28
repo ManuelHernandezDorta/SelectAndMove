@@ -11,6 +11,7 @@ args = parser.parse_args()
 
 directory = os.getcwd()
 array = []
+extension = ""
 
 if args.destination:
     destination = args.destination
@@ -19,11 +20,11 @@ if args.file:
 if args.location:
     directory = args.location
 if args.extension:
-    extension = args.extension
+    extension = "."+args.extension
 
 with open(paper,"r") as names:
     for name in names.read().splitlines():
-        array.append(name+"."+extension)
+        array.append(name + extension)
     names.close()
 
 for position in array:
