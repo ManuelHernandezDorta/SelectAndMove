@@ -6,9 +6,9 @@ It's simple to use this script, the only fact that you should worry about is the
 
 ### Arguments:
 if you use the command below it will sow all the posibles arguments and their description
-''' python
+```python
 python selector.py -h
-'''
+```
 However here is a list with the same information to make it easier to unsderstand:<br/>
 
 --destination or -d, to set output path<br/>
@@ -31,6 +31,6 @@ file_3<br/>
 
 
 Each name must be in a different line and it's not necessary that the name have the extension, because you can add it by the -e argument (the extension must be introduced without ".", for exmanple)
-'''python 
+```python 
 -e txt
-'''
+```
