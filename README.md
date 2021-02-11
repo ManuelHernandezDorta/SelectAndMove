@@ -1,4 +1,4 @@
-# SelectorAndMove
+# SelectAndMove
 A CLI script that select files from a directory based in an input list in txt format and move it to another directory
 
 ## Use:
