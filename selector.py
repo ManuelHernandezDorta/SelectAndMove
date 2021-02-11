@@ -27,8 +27,12 @@ with open(paper,"r") as names:
         array.append(name + extension)
     names.close()
 
+if os.path.isdir(destination):
+    pass
+else:
+    os.mkdir(destination)
+
 for position in array:
-    os.chdir(directory)
     for document in os.listdir(directory):
         if position == document:
             shutil.move(document,destination)
