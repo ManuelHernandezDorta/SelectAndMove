@@ -35,6 +35,6 @@ else:
 for position in array:
     for document in os.listdir(directory):
         if position == document:
-            shutil.copyfile(document,destination)
+            shutil.copy(document,destination)
         else:
             pass
