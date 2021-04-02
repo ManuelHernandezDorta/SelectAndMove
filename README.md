@@ -13,6 +13,7 @@ Next there is a list:
 --file" or -f, to set the name/path for the input list file i.e.  -f list.txt<br/>
 --location or -l, to set the name/ path for the target directory (default is current working directory)<br/>
 --extension or -e, to add an extension to the input file name (write it without .) i.e. -e txt<br/>
+--action or -a, to select the action you want to do (move or copy)<br/>
 
 if there is any problem with the script try to enter the full path in each argument
 
